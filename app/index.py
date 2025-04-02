@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
-    st.write(os.getenv())
+    st.write(os.getenv('DATABASE_URL'))
     print(os.getenv('DATABASE_URL'))
     database_url = os.getenv('DATABASE_URL')
     st.title('Aplicativo Simples com Streamlit')
