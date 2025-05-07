@@ -1,6 +1,6 @@
 services:
   streamlit:
-    container_name: "exemplo_streamlit"
+    container_name: "exemplo_streamlit2"
     build:
       dockerfile: ./Dockerfile
       context: ./
